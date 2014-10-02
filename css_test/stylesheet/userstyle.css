@@ -1,7 +1,4 @@
-.row{
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
+
 
 .submit-wrapper .row {
     margin-top: 0px;
@@ -89,8 +86,11 @@ label[for="i_not_sick"]
     .right-block.span3{ float: right; }
     input.input-text{ width: 40% }
     legend{margin-left: 195px;}
-}
 
+}
+@media only screen and (max-width: 1280px) {
+    .submit-wrapper fieldset{ padding-bottom: 15px; }
+}
 
 /* #Desktop*/
 /*================================================== */
@@ -129,6 +129,9 @@ label[for="i_not_sick"]
     input[name='last_name_modify']  {margin-right: 6px;}
     .submit-wrapper .row button.button { width: 400px; padding: 20px 25px;}
     select option{ font-size: 1em; }
+    .submit-wrapper .input-wrapper.row:first-child .span6 {
+        width: 450px;
+    }
 }
 
 
@@ -150,7 +153,7 @@ label[for="i_not_sick"]
         padding-right: 15px;
     }
     input[name='last_name_modify']  {margin-right: 6px;margin-top: 3px;}
-
+    .submit-wrapper fieldset{ padding-bottom: 0; }
 }
 
 /* #Mobile (Landscape)*/
@@ -167,6 +170,7 @@ label[for="i_not_sick"]
 }
 
 @media only screen and (max-width: 320px){
+    h1{ font-size: 2em; }
     h1,
     .right-block,
     .input-wrapper
@@ -174,10 +178,12 @@ label[for="i_not_sick"]
         margin: 0 10px;
     }
     div.submit-wrapper .row button.button{
-        padding: 10px 10px;
-        margin: 20px 10px;
+        padding: 10px 20px;
+        margin: 20px auto;
+        font-size: 1.7em;
     }
     .submit-wrapper .row .span6{
         padding-left: 0;
     }
+    legend { margin-left: 5px; }
 }
