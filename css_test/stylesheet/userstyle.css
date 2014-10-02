@@ -39,15 +39,20 @@
 {
     left:0;
     margin-left: -7px;
+    background-image: url("../img/shadow_l.png");
 }
 .right-shadow{
     right:0;
     margin-right: -7px;
+    background-image: url("../img/shadow_r.png");
 }
 .right-shadow,
 .left-shadow{
     position: absolute;
     top:0;
+    width: 22px;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
 .submit-wrapper .row button.button {
