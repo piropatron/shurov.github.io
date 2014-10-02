@@ -181,25 +181,3 @@ label[for="i_not_sick"]
         padding-left: 0;
     }
 }
-
-/* == Retina display ==== */
-/* ===  */
-/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5)*/
-/*{*/
-
-/*}*/
-/* iPad */
-/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 978px) and (max-width: 1023px)*/
-/*{*/
-    /*.container_12,*/
-    /*.content-wrapper > .site-container{*/
-        /*width: 100%*/
-    /*}*/
-
-/*}*/
-
-
-/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 977px) and (min-width: 768px)*/
-/*{*/
-    /*h1 { color: red; }*/
-/*}*/
