@@ -27,7 +27,10 @@ $.extend($.validator.messages, {
 	rangelength: $.validator.format("Пожалуйста, введите значение длиной от {0} до {1} символов."),
 	range: $.validator.format("Пожалуйста, введите число от {0} до {1}."),
 	max: $.validator.format("Пожалуйста, введите число, меньшее или равное {0}."),
-	min: $.validator.format("Пожалуйста, введите число, большее или равное {0}.")
+	min: $.validator.format("Пожалуйста, введите число, большее или равное {0}."),
+    name: $.validator.format("Пожалуйста, введите имя"),
+    lastname: $.validator.format("Пожалуйста, введите фамилию"),
+    midlename: $.validator.format("Пожалуйста, введите отчество")
 });
 
 }));

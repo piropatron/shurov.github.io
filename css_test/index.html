@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="stylesheet/base.css">
     <link rel="stylesheet" href="stylesheet/grid_responsive.css">
     <link rel="stylesheet" href="stylesheet/userstyle.css">
+    <script src="js/lib/userlib.js"></script>
     <script src="js/lib/jquery-2.1.1.js"></script>
     <script src="js/lib/jquery.validate.js"></script>
     <script src="js/lib/additional-methods.js"></script>
@@ -30,6 +31,9 @@
                         <form id="mars-form" action="#" class="form" method="POST">
                             <div class="left-shadow"></div>
                             <div class="wrapper">
+                                <div class="row">
+                                    <div class="span9 error-container"></div>
+                                </div>
 
                                 <fieldset>
                                     <div class="input-wrapper row last-name-row">
@@ -151,11 +155,11 @@
                                     <legend>Контактная информация</legend>
                                     <div class="input-wrapper row">
                                         <label class="span3" for="cell_phone">Моб. телефон</label><br/>
-                                        <input class="span6 input-text" id="cell_phone" placeholder="+7" name="cell_phone" type="text"/>
+                                        <input class="span6 input-text" id="cell_phone" placeholder="+7" name="cell_phone" type="text"/><br/>
                                     </div>
                                     <div class="input-wrapper row">
                                         <label class="span3" for="email">Электронная почта</label><br/>
-                                        <input class="span6 input-text" id="email" name="email" type="email"/>
+                                        <input class="span6 input-text" id="email" name="email" type="email"/><br/>
                                     </div>
                                 </fieldset>
                             </div>
@@ -167,6 +171,13 @@
                                         <div class="span6">
                                             <input id="i_not_sick" name="i_not_sick" type="checkbox"/>
                                             <label class="small" for="i_not_sick">Ставя эту галочку, я подтверждаю что поставил её в трезвом уме и твердой пямяти</label>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrapper row">
+                                        <div class="span3"></div>
+                                        <div class="error span6">
+                                            <ul>
+                                            </ul>
                                         </div>
                                     </div>
                                     <div class="input-wrapper row">

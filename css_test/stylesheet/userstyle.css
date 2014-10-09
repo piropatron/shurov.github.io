@@ -84,6 +84,27 @@ label[for="i_not_sick"]
     line-height: 1;
 }
 
+ul li label { line-height: 1em; }
+input.error{
+    box-shadow: 0 1px 10px 0 #FF6060 inset;
+}
+
+input.valid{
+    box-shadow: 0 1px 3px 0 #80AA80 inset;
+}
+input[type=checkbox].error,
+select.error{box-shadow: 0 1px 5px 0 #FF6060;}
+input[type=checkbox].valid,
+select.valid{box-shadow: 0 1px 3px 0 #80AA80;}
+span.error,
+span.valid{
+    font-size: 0.75em;
+    line-height: 3em;
+    margin:0 10px;
+}
+span.error { color: red; }
+span.valid, span.success{ color: green;}
+div.error{ display: none; }
 /* ======================================================================================= */
 /* #Desktop - Extra Large*/
 /*================================================== */

@@ -925,4 +925,54 @@ $.validator.addMethod("ziprange", function(value, element) {
 	return this.optional(element) || /^90[2-5]\d\{2\}-\d{4}$/.test(value);
 }, "Your ZIP-code must be in the range 902xx-xxxx to 905xx-xxxx");
 
+/** Custom method */
+
+$.validator.addMethod("cyrillicName", function(value, element, param) {
+    return this.optional(element) || /^[А-Я][а-я]+$/.test( value.trim() );
+}, "Пожалуйста, введите имя");
+
+$.validator.addMethod("lastname", function(value, element, param) {
+    return this.optional(element) || /^[А-Я][а-я]+$/.test( value.trim() );
+}, "Пожалуйста, введите фамилию");
+
+$.validator.addMethod("midlename", function(value, element, param) {
+    return this.optional(element) || /^[А-Я][а-я]+$/.test( value.trim() );
+}, "Пожалуйста, введите отчество");
+
+$.validator.addMethod("ruPhone", function(value, element, param) {
+    // TODO вписать коды русских операторов :)
+    return this.optional(element) || /^\+7(910|920)[0-9]{7}$/.test( value.trim() );
+}, "Пожалуйста, введите телефон в формате +79108403682");
+
+$.validator.addMethod("equalToCyrillic", function(value, element, param) {
+    if(/^[А-Я-А-я]+$/.test( value.trim() )){
+        $.validator.messages[ "equalToCyrillic" ] = 'Используйте латиницу';
+        return false;
+    }
+
+    var target = $( param );
+    if ( this.settings.onfocusout ) {
+        target.unbind( ".validate-equalTo" ).bind( "blur.validate-equalTo", function() {
+            $( element ).valid();
+        });
+    }
+    var translaate = target.val().trim().translate();
+    if(value.trim() === translaate){
+        return true;
+    }else if( translaate === '' ){
+        $.validator.messages[ "equalToCyrillic" ] = 'Введите вначале значение кирилицой';
+        return false;
+    }else{
+        $.validator.messages[ "equalToCyrillic" ] = 'Возможно вы имели введу '+translaate;
+        return false;
+    }
+
+});
+
+$.validator.addMethod("dateSelect", function(value, element, param) {
+    var datetime = new Date( $( param[0] ).val()+'/' + $( param[1] ).val()+ '/' + $( param[2] ).val() );
+    return this.optional( element ) || !/Invalid|NaN/.test( datetime.toString());
+},'Неправильная дата');
 }));
+
+
