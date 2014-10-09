@@ -4,9 +4,14 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Заявка на экскурсионный полет на Марс</title>
-    <link href="stylesheet/base.css" rel="stylesheet">
-    <link href="stylesheet/grid_responsive.css" rel="stylesheet">
-    <link href="stylesheet/userstyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet/base.css">
+    <link rel="stylesheet" href="stylesheet/grid_responsive.css">
+    <link rel="stylesheet" href="stylesheet/userstyle.css">
+    <script src="js/lib/jquery-2.1.1.js"></script>
+    <script src="js/lib/jquery.validate.js"></script>
+    <script src="js/lib/additional-methods.js"></script>
+    <script src="js/lib/localization/messages_ru.js"></script>
+    <script src="js/userscript.js"></script>
 </head>
 <body>
 <div class="content-wrapper">
@@ -22,7 +27,7 @@
                 </div>
                 <div class="span9">
                     <div class="form-wrapper">
-                        <form action="#" class="form" method="POST">
+                        <form id="mars-form" action="#" class="form" method="POST">
                             <div class="left-shadow"></div>
                             <div class="wrapper">
 
@@ -62,6 +67,7 @@
                                         <label class="span3" for="birstday_day">Дата рождения</label><br/>
 
                                         <select name="birstday_day" id="birstday_day">
+                                            <option value=""></option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -95,6 +101,7 @@
                                             <option value="31">31</option>
                                         </select>
                                         <select name="birstday_month" id="birstday_month">
+                                            <option value=""></option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -109,6 +116,7 @@
                                             <option value="12">12</option>
                                         </select>
                                         <select name="birstday_year" id="birstday_year">
+                                            <option value=""></option>
                                             <option value="2009">2009</option>
                                             <option value="2010">2010</option>
                                             <option value="2011">2011</option>
@@ -120,6 +128,7 @@
                                     <div class="input-wrapper row">
                                         <label class="span3" for="marital_status">Семейное положение</label><br/>
                                         <select name="marital_status" id="marital_status">
+                                            <option value=""></option>
                                             <option value="single / married">женат/замужем</option>
                                             <option value="a 'civil marriage'">в «гражданском браке»</option>
                                             <option value="divorced">разведён</option>
@@ -130,6 +139,7 @@
                                     <div class="input-wrapper row">
                                         <label class="span3" for="education">Образование</label><br/>
                                         <select name="education" id="education">
+                                            <option value=""></option>
                                             <option value="higher">высшее</option>
                                             <option value="secondary special">среднее специальное</option>
                                             <option value="secondary">среднее</option>
