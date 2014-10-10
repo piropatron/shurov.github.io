@@ -1,12 +1,12 @@
 jQuery(document).ready(
     function(){
-        var cont = $("#mars-form div.error");
+        var container = $("#mars-form div.error");
         jQuery('#mars-form').storage();
         jQuery('#mars-form').validate(
             {
                 debug: true,
-                errorContainer: cont ,
-                errorLabelContainer: $("ul", cont ),
+                errorContainer: container,
+                errorLabelContainer: $("ul", container ),
                 wrapper: 'li',
                 rules:{
                     name: {
@@ -76,6 +76,7 @@ jQuery(document).ready(
                             jQuery(this.currentForm).serialize()
                     ).done(
                         function(response){
+                            alert('Форма отправлена');
                         }
                     ).error(
                         function(){
