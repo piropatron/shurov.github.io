@@ -16,8 +16,7 @@
                 restore = false;
             }
             if (restore) {
-                jQuery.each(
-                    data,
+                jQuery(data).each(
                     function (index, item) {
                         $('[name=' + item.name + ']').val(item.value);
                     }
