@@ -71,7 +71,7 @@ jQuery(document).ready(
                     }
                 },
                 submitHandler: function(){
-                    jQuery.post(
+                    jQuery.get(
                             window.location.protocol +'//'+ window.location.hostname + '/' +jQuery(this.currentForm).closest('form').attr('action'),
                             jQuery(this.currentForm).serialize()
                     ).done(
@@ -80,7 +80,7 @@ jQuery(document).ready(
                         }
                     ).error(
                         function(){
-                            console.log('sdfsdf');
+                            alert('Форма не отправлена');
                         }
                     ) ;
                 }
