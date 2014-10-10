@@ -1,6 +1,7 @@
 jQuery(document).ready(
     function(){
         var cont = $("#mars-form div.error");
+        jQuery('#mars-form').storage();
         jQuery('#mars-form').validate(
             {
                 debug: true,
