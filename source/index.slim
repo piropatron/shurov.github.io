@@ -58,7 +58,7 @@ div.content-wrapper
                         option value="#{a}" #{a}
                     select#birstday_year name="birstday_year"
                       option value=""
-                      - (1900..1999).each do |a|
+                      - (1900..1999).reverse_each do |a|
                         option value="#{a}" #{a}
                   div.input-wrapper.row
                     label.span3 for="marital_status" Семейное положение
