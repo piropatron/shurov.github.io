@@ -1,0 +1,153 @@
+/* line 2, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+  /* Form Elements */ }
+  /* line 8, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+  html * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  /* line 13, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+  html *:before,
+  html *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  /* line 19, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+  html *:focus {
+    outline: 0; }
+  /* line 21, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+  html body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    background-color: #ffffff; }
+    /* line 27, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+    html body input,
+    html body button,
+    html body select,
+    html body textarea {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit; }
+    /* line 35, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+    html body a {
+      color: #428bca;
+      text-decoration: none; }
+    /* line 39, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+    html body a:hover,
+    html body a:focus {
+      color: #2a6496;
+      text-decoration: underline; }
+    /* line 44, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+    html body a:focus {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+    /* line 49, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+    html body .container {
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      overflow: hidden;
+      /* FF Fix */
+      /* <- Safari & Google Chrome Fix */
+      /* FF Fix */
+      /* <- Safari & Google Chrome Fix */ }
+      /* line 55, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container .row:last-child {
+        margin-bottom: 0; }
+      /* line 57, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container fieldset {
+        border: none;
+        padding-bottom: 30px; }
+        /* line 60, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+        html body .container fieldset legend {
+          font-size: 1.5em;
+          font-weight: 900; }
+      /* line 64, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container br {
+        display: none; }
+      /* line 67, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container label {
+        line-height: 2em; }
+      /* line 70, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container input {
+        font-size: 18px; }
+      /* line 73, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container h1 {
+        font-weight: 900;
+        font-size: 2.3em; }
+      /* line 77, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container h1, html body .container h2, html body .container h3 {
+        -webkit-margin-before: 0px;
+        -webkit-margin-after: 0px;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px; }
+      /* line 85, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container input, html body .container textarea, html body .container button {
+        font: 20px/30px "Helvetica Neue", Helvetica, sans-serif;
+        vertical-align: middle;
+        color: #999699;
+        background-color: #fff;
+        border: none;
+        margin: 0; }
+      /* line 93, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container input[type=checkbox] {
+        margin-right: 5px; }
+      /* line 96, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container input.input-text, html body .container textarea {
+        background: #fff;
+        box-shadow: 0 1px 3px 0 #808080 inset; }
+      /* line 100, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container input.input-text:focus, html body .container textarea:focus, html body .container button:focus {
+        box-shadow: 0 1px 3px 0 #202080 inset;
+        border: none; }
+      /* line 104, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container input.input-text, html body .container textarea {
+        padding: 2px 10px;
+        font-weight: 600; }
+      /* line 108, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container select {
+        padding: 1px 1px 1px 3px; }
+      /* line 111, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container select option {
+        padding-right: 10px; }
+      /* line 114, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container textarea {
+        overflow: auto; }
+      /* line 117, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container input.radio {
+        margin-right: 3px;
+        margin-top: 0; }
+      /* line 121, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container input.checkbox {
+        margin-right: 3px; }
+      /* line 124, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container button.button::-moz-focus-inner {
+        padding: 0;
+        border: 0; }
+      /* line 129, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container button.button {
+        -webkit-border-fit: lines; }
+      /* line 133, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container button.button::-moz-focus-inner {
+        padding: 0;
+        border: 0; }
+      /* line 138, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container button.button {
+        -webkit-border-fit: lines; }
+      /* line 142, /var/www/shurov.github.io/source/stylesheets/base.css.sass */
+      html body .container button.button {
+        overflow: visible;
+        width: auto;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        background: transparent;
+        cursor: pointer; }
