@@ -1,2 +1,5 @@
 # Created by .gitignore support plugin (hsz.mobi)
 .idea
+config.rb
+Gemfile
+Gemfile.lock
