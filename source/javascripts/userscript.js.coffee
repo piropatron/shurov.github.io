@@ -55,7 +55,7 @@ jQuery(document).ready ->
         required: true
     submitHandler: ->
       jQuery.get(
-        window.location.protocol +'//' + window.location.hostname + '/' + jQuery(this.currentForm).closest('form').attr('action'),
+        "#{window.location.protocol}//#{window.location.hostname}/#{jQuery(this.currentForm).closest('form').attr('action')}"
           jQuery(this.currentForm).serialize()
       ).done(
           (response) -> alert('Форма отправлена' + response)
