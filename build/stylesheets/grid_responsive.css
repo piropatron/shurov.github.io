@@ -28,86 +28,84 @@
   .container {
     width: 1170px; } }
 @media (min-width: 976px) {
-  /* line 31, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
-  .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+  /* line 34, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  html body .container .span1, html body .container .span2, html body .container .span3, html body .container .span4, html body .container .span5, html body .container .span6, html body .container .span7, html body .container .span8, html body .container .span9, html body .container .span10, html body .container .span11, html body .container .span12 {
     float: left; }
 
-  /* line 34, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 37, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span12 {
     width: 100%; }
 
-  /* line 37, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 40, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span11 {
     width: 91.66667%; }
 
-  /* line 40, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 43, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span10 {
     width: 83.33333%; }
 
-  /* line 43, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 46, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span9 {
     width: 75%; }
 
-  /* line 46, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 49, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span8 {
     width: 66.66667%; }
 
-  /* line 49, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 52, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span7 {
     width: 58.33333%; }
 
-  /* line 52, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 55, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span6 {
     width: 50%; }
 
-  /* line 55, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 58, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span5 {
     width: 41.66667%; }
 
-  /* line 58, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 61, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span4 {
     width: 33.33333%; }
 
-  /* line 61, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 64, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span3 {
     width: 25%; }
 
-  /* line 64, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 67, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span2 {
     width: 16.66667%; }
 
-  /* line 67, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 70, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   .span1 {
     width: 8.33333%; } }
 @media only screen and (min-width: 768px) and (max-width: 977px) {
-  /* line 73, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  /* line 74, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
   body {
     font-size: 1.75em; } }
 @media only screen and (max-width: 767px) {
-  /* line 77, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
-  .container {
-    padding: 0; }
-
   /* line 80, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
-  .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
-    float: none;
-    display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0; }
-
-  /* line 87, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
-  fieldset,
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0; } }
+  html body .container {
+    padding: 0; }
+    /* line 82, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+    html body .container .span1, html body .container .span2, html body .container .span3, html body .container .span4, html body .container .span5, html body .container .span6, html body .container .span7, html body .container .span8, html body .container .span9, html body .container .span10, html body .container .span11, html body .container .span12 {
+      float: none;
+      display: block;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0; }
+    /* line 88, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+    html body .container fieldset,
+    html body .container .row {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0; } }
 @media (max-width: 320px) {
-  /* line 96, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
-  .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+  /* line 100, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+  html body .container .span1, html body .container .span2, html body .container .span3, html body .container .span4, html body .container .span5, html body .container .span6, html body .container .span7, html body .container .span8, html body .container .span9, html body .container .span10, html body .container .span11, html body .container .span12 {
     padding-left: 0;
     padding-right: 0; } }
-/* line 100, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+/* line 104, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
 .clearfix:before,
 .clearfix:after,
 .container:before,
@@ -117,7 +115,7 @@
   content: " ";
   display: table; }
 
-/* line 109, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
+/* line 113, /var/www/shurov.github.io/source/stylesheets/grid_responsive.sass */
 .clearfix:after,
 .container:after,
 .container-fluid:after,
