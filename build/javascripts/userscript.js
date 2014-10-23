@@ -70,7 +70,7 @@
         }
       },
       submitHandler: function() {
-        return jQuery.get(window.location.protocol(+'//' + window.location.hostname + '/' + jQuery(this.currentForm).closest('form').attr('action'), jQuery(this.currentForm).serialize())).done(function(response) {
+        return jQuery.get("" + window.location.protocol + "//" + window.location.hostname + "/" + (jQuery(this.currentForm).closest('form').attr('action')), jQuery(this.currentForm).serialize()).done(function(response) {
           return alert('Форма отправлена' + response);
         }).error(function() {
           return alert('Форма не отправлена');

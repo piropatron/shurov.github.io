@@ -1,34 +1,34 @@
-/* line 3, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 3, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .last-name-row {
   margin-bottom: 0; }
 
-/* line 6, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 6, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .last-name-modify-row {
   margin-top: 5px; }
 
-/* line 9, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 9, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .last-name-modify-row label {
   line-height: 1;
   padding-left: 0; }
 
-/* line 13, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 13, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .small {
   font-size: 0.9em; }
 
-/* line 17, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 17, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .container .row:last-child {
   margin-bottom: 0; }
-/* line 21, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 21, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .container .row .form-wrapper .left-shadow {
   left: 0;
   margin-left: -7px;
   background-image: url("../images/shadow_l.png"); }
-/* line 26, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 26, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .container .row .form-wrapper .right-shadow {
   right: 0;
   margin-right: -7px;
   background-image: url("../images/shadow_r.png"); }
-/* line 30, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 30, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .container .row .form-wrapper .right-shadow,
 .container .row .form-wrapper .left-shadow {
   position: absolute;
@@ -36,23 +36,23 @@
   width: 22px;
   height: 100%;
   background-repeat: no-repeat; }
-/* line 37, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 37, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .container .row .form-wrapper .wrapper {
   background: #fefcea;
   background: linear-gradient(to top, #ffe8e8, #ffe8e8, #ffe8e8, #fbd7d7, #efd5d4); }
-/* line 41, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 41, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 .container .row .form-wrapper .submit-wrapper {
   background: #a7b2ce;
   background: linear-gradient(to top, #a7b2ce, #d8cbd8);
   padding-top: 20px; }
-  /* line 45, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+  /* line 45, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
   .container .row .form-wrapper .submit-wrapper .row {
     margin-top: 0px;
     margin-bottom: 0px; }
-    /* line 48, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 48, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
     .container .row .form-wrapper .submit-wrapper .row .span6 {
       padding-left: 5px; }
-    /* line 50, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 50, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
     .container .row .form-wrapper .submit-wrapper .row button.button {
       background: linear-gradient(to top, #ebecf3, #dddde3, #ebecf3) repeat scroll 0 0 transparent;
       border-radius: 15px;
@@ -63,59 +63,59 @@
       margin: 20px auto;
       padding: 10px 25px;
       text-shadow: 1px 1px white; }
-    /* line 61, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 61, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
     .container .row .form-wrapper .submit-wrapper .row button:hover {
       background: linear-gradient(to top, #dddde3, #ebecf3, #dddde3) repeat scroll 0 0 transparent; }
 
-/* line 68, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 68, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 input[name="i_not_sick"] {
   display: inline-block;
   vertical-align: top; }
 
-/* line 72, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 72, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 label[for="i_not_sick"] {
   display: inline-block;
   width: 90%;
   line-height: 1; }
 
-/* line 77, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 77, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 ul li label {
   line-height: 1em; }
 
-/* line 80, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 80, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 input.error {
   box-shadow: 0 1px 10px 0 #FF6060 inset; }
 
-/* line 83, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 83, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 input.valid {
   box-shadow: 0 1px 3px 0 #80AA80 inset; }
 
-/* line 86, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 86, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 input[type=checkbox].error,
 select.error {
   box-shadow: 0 1px 5px 0 #FF6060; }
 
-/* line 90, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 90, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 input[type=checkbox].valid,
 select.valid {
   box-shadow: 0 1px 3px 0 #80AA80; }
 
-/* line 94, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 94, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 span.error,
 span.valid {
   font-size: 0.75em;
   line-height: 3em;
   margin: 0 10px; }
 
-/* line 100, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 100, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 span.error {
   color: red; }
 
-/* line 103, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 103, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 span.valid, span.success {
   color: green; }
 
-/* line 106, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+/* line 106, /var/www/shurov.github.io/source/stylesheets/userstyle.css.sass */
 div.error {
   display: none; }
 
@@ -123,39 +123,99 @@ div.error {
 /* #Desktop - Extra Large */
 /*================================================== */
 @media only screen and (min-width: 1280px) {
-  /* line 115, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+  /* line 9, /var/www/shurov.github.io/source/stylesheets/_desktop-large.css.sass */
   html body .container .right-block.span3 {
     float: right; }
-  /* line 117, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+  /* line 11, /var/www/shurov.github.io/source/stylesheets/_desktop-large.css.sass */
   html body .container input.input-text {
     width: 40%; }
-  /* line 119, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+  /* line 13, /var/www/shurov.github.io/source/stylesheets/_desktop-large.css.sass */
   html body .container legend {
     margin-left: 195px; } }
-@media only screen and (max-width: 1280px) {
-  /* line 126, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-  html body .container .submit-wrapper fieldset {
-    padding-bottom: 15px; } }
 /* #Desktop */
 /*================================================== */
+@media only screen and (max-width: 1280px) {
+  /* line 8, /var/www/shurov.github.io/source/stylesheets/_desktop.css.sass */
+  html body .container .submit-wrapper fieldset {
+    padding-bottom: 15px; } }
 @media only screen and (min-width: 978px) and (max-width: 1279px) {
-  /* line 136, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+  /* line 15, /var/www/shurov.github.io/source/stylesheets/_desktop.css.sass */
   html body .container .right-block.span3 {
     float: right; }
-  /* line 138, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+  /* line 17, /var/www/shurov.github.io/source/stylesheets/_desktop.css.sass */
   html body .container input[name='last_name_modify'] {
     margin-right: 6px; }
-  /* line 140, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+  /* line 19, /var/www/shurov.github.io/source/stylesheets/_desktop.css.sass */
   html body .container legend {
     margin-left: 24%; } }
+/*  #Mobile (Portrait) */
+/*================================================== */
+/* Note: Design for a width of 320px Gutter: 10px, Unit: 15px */
+@media only screen and (max-width: 767px) {
+  /* line 8, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+  html body {
+    font-size: 1.75em; }
+    /* line 13, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+    html body .container .row .form-wrapper .left-shadow,
+    html body .container .row .form-wrapper .right-shadow {
+      display: none; }
+    /* line 16, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+    html body .container .row h1.span12,
+    html body .container .row .right-block h3,
+    html body .container .row .right-block p {
+      margin-left: 15px;
+      margin-right: 20px; }
+    /* line 21, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+    html body .container .row h1.span12 {
+      padding-left: 15px;
+      padding-right: 15px; }
+    /* line 24, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+    html body .container .row input[name='last_name_modify'] {
+      margin-right: 6px;
+      margin-top: 3px; }
+    /* line 27, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+    html body .container .row .submit-wrapper fieldset {
+      padding-bottom: 0; } }
+/* #Mobile (Landscape) */
+/*================================================== */
+/* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 38, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+  html body .container .row:first-child {
+    margin-top: 0; }
+  /* line 41, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+  html body .container .row h1.span12 {
+    padding-left: 0; } }
+@media only screen and (max-width: 320px) {
+  /* line 48, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+  html body .container h1 {
+    font-size: 1.7em; }
+  /* line 50, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+  html body .container h1,
+  html body .container .right-block,
+  html body .container .input-wrapper {
+    margin: 0 10px; }
+
+  /* line 57, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+  .submit-wrapper .row button.button {
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 1.7em; }
+  /* line 61, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+  .submit-wrapper .row .span6 {
+    padding-left: 0; }
+
+  /* line 64, /var/www/shurov.github.io/source/stylesheets/_mobile.css.sass */
+  legend {
+    margin-left: 5px; } }
 /* #Tablet (Portrait) */
 /*================================================== */
 /* Note: Design for a width of 768px, Gutter: 20px, Unit: 44px */
 @media only screen and (min-width: 768px) and (max-width: 977px) {
-  /* line 149, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+  /* line 8, /var/www/shurov.github.io/source/stylesheets/_tablet.css.sass */
   html body {
     font-size: 1.75em; }
-    /* line 152, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 11, /var/www/shurov.github.io/source/stylesheets/_tablet.css.sass */
     html body .container .input-wrapper.row .span1,
     html body .container .input-wrapper.row .span2,
     html body .container .input-wrapper.row .span3,
@@ -169,85 +229,25 @@ div.error {
     html body .container .input-wrapper.row .span11,
     html body .container .input-wrapper.row .span12 {
       display: inline-block; }
-    /* line 166, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 25, /var/www/shurov.github.io/source/stylesheets/_tablet.css.sass */
     html body .container .input-wrapper.row .span3 {
       width: 230px; }
-    /* line 168, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 27, /var/www/shurov.github.io/source/stylesheets/_tablet.css.sass */
     html body .container .input-wrapper.row .span6 {
       width: 330px; }
-    /* line 170, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 29, /var/www/shurov.github.io/source/stylesheets/_tablet.css.sass */
     html body .container .form-wrapper .wrapper {
       padding-right: 22px; }
-    /* line 172, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 31, /var/www/shurov.github.io/source/stylesheets/_tablet.css.sass */
     html body .container input[name='last_name_modify'] {
       margin-right: 6px; }
-    /* line 174, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 33, /var/www/shurov.github.io/source/stylesheets/_tablet.css.sass */
     html body .container select option {
       font-size: 1em; }
-    /* line 178, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 37, /var/www/shurov.github.io/source/stylesheets/_tablet.css.sass */
     html body .container .submit-wrapper .row button.button {
       width: 400px;
       padding: 20px 25px; }
-    /* line 182, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
+    /* line 41, /var/www/shurov.github.io/source/stylesheets/_tablet.css.sass */
     html body .container .submit-wrapper .input-wrapper.row:first-child .span6 {
       width: 450px; } }
-/*  #Mobile (Portrait) */
-/*================================================== */
-/* Note: Design for a width of 320px Gutter: 10px, Unit: 15px */
-@media only screen and (max-width: 767px) {
-  /* line 191, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-  html body {
-    font-size: 1.75em; }
-    /* line 196, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-    html body .container .row .form-wrapper .left-shadow,
-    html body .container .row .form-wrapper .right-shadow {
-      display: none; }
-    /* line 199, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-    html body .container .row h1.span12,
-    html body .container .row .right-block h3,
-    html body .container .row .right-block p {
-      margin-left: 15px;
-      margin-right: 20px; }
-    /* line 204, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-    html body .container .row h1.span12 {
-      padding-left: 15px;
-      padding-right: 15px; }
-    /* line 207, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-    html body .container .row input[name='last_name_modify'] {
-      margin-right: 6px;
-      margin-top: 3px; }
-    /* line 210, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-    html body .container .row .submit-wrapper fieldset {
-      padding-bottom: 0; } }
-/* #Mobile (Landscape) */
-/*================================================== */
-/* Note: Design for a width of 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 221, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-  html body .container .row:first-child {
-    margin-top: 0; }
-  /* line 224, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-  html body .container .row h1.span12 {
-    padding-left: 0; } }
-@media only screen and (max-width: 320px) {
-  /* line 231, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-  html body .container h1 {
-    font-size: 1.7em; }
-  /* line 233, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-  html body .container h1,
-  html body .container .right-block,
-  html body .container .input-wrapper {
-    margin: 0 10px; }
-
-  /* line 240, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-  .submit-wrapper .row button.button {
-    padding: 10px 20px;
-    margin: 20px auto;
-    font-size: 1.7em; }
-  /* line 244, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-  .submit-wrapper .row .span6 {
-    padding-left: 0; }
-
-  /* line 247, /var/www/shurov.github.io/source/stylesheets/userstyle.sass */
-  legend {
-    margin-left: 5px; } }
