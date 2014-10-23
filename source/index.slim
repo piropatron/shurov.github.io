@@ -1,0 +1,108 @@
+---
+  title: Заявка на экскурсионный полет на Марс
+---
+div.content-wrapper
+  div.site-container
+    div.container
+      div.row
+        h1.span12 Заявка на&nbsp;экскурсионный полет на Марс
+      div.row
+        div.span3.right-block
+          h3 Почему стабильно солнечное затмение?
+          p Эффективный диаметр жизненно вызывает случайный эффективный радиус, а время ожидания ответа составило бы 80 миллиардов лет.
+        div.span9
+          div.form-wrapper
+            form#mars-form action="#" class="form" method="POST"
+              div.left-shadow
+              div.wrapper
+                div.row
+                  div.span9.error-container
+                fieldset
+                  div.input-wrapper.row.last-name-row
+                    label.span3 for="last_name" Фамилия
+                    br
+                    input.span6.input-text#last_name name="last_name" type="text"
+                    br
+                  div.input-wrapper.row.last-name-modify-row
+                    span.span3
+                    label.span6.small for="last_name_modify"
+                      input#last_name_modify name="last_name_modify" type="checkbox" ранее менялась
+                  div.input-wrapper.row
+                    label.span3 for="name" Имя
+                    br
+                    input.span6.input-text#name name="name" type="text"
+                  div.input-wrapper.row
+                    label.span3 for="middle_name" Отчество
+                    br
+                    input.span6.input-text#middle_name name="middle_name" type="text"
+                fieldset
+                  div.input-wrapper.row
+                    label.span3 for="last_name_lat" Фамилия латиницей
+                    br
+                    input.span6.input-text#last_name_lat name="last_name_lat" type="text"
+                  div.input-wrapper.row
+                    label.span3 for="name_lat" Имя латиницей
+                    br
+                    input.span6.input-text#name_lat name="name_lat" type="text"
+                fieldset
+                  div.input-wrapper.row
+                    label.span3 for="birstday_day" Дата рождения
+                    br
+                    select#birstday_day name="birstday_day"
+                      option value=""
+                      - (1..31).each do |a|
+                        option value="#{a}" #{a}
+                    select#birstday_month name="birstday_month"
+                      option value=""
+                      - (1..12).each do |a|
+                        option value="#{a}" #{a}
+                    select#birstday_year name="birstday_year"
+                      option value=""
+                      - (1900..1999).reverse_each do |a|
+                        option value="#{a}" #{a}
+                  div.input-wrapper.row
+                    label.span3 for="marital_status" Семейное положение
+                    br
+                    select#marital_status name="marital_status"
+                      option value=""
+                      option value="single / married" женат/замужем
+                      option value="a 'civil marriage'" в «гражданском браке»
+                      option value="divorced" разведён
+                      option value="single" холост
+                      option value="widower" вдовец
+                  div.input-wrapper.row
+                    label.span3 for="education" Образование
+                    br
+                    select#education name="education"
+                      option value=""
+                      option value="higher" высшее
+                      option value="secondary special" среднее специальное
+                      option value="secondary" среднее
+                      option value="student" студент
+                fieldset
+                  legend Контактная информация
+                  div.input-wrapper.row
+                    label.span3 for="cell_phone" Моб. телефон
+                    br
+                    input.span6.input-text#cell_phone placeholder="+7" name="cell_phone" type="text"
+                    br
+                  div.input-wrapper.row
+                    label.span3 for="email" Электронная почта
+                    br
+                    input.span6.input-text#email name="email" type="email"
+                    br
+              div.right-shadow
+              div.submit-wrapper
+                fieldset
+                  div.input-wrapper.row
+                    div.span3
+                    div.span6
+                      input#i_not_sick name="i_not_sick" type="checkbox"
+                      label.small for="i_not_sick" Ставя эту галочку, я подтверждаю что поставил её в трезвом уме и твердой пямяти
+                  div.input-wrapper.row
+                    div.span3
+                    div.error.span6
+                      ul
+                  div.input-wrapper.row
+                    div.span3
+                    button.button.span6 type="submit" Полететь на Марс

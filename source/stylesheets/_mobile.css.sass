@@ -1,0 +1,64 @@
+/*  #Mobile (Portrait)*/
+/*================================================== */
+
+/* Note: Design for a width of 320px Gutter: 10px, Unit: 15px */
+@media only screen and (max-width: 767px)
+  html
+    body
+      font-size: 1.75em
+      .container
+        .row
+          .form-wrapper
+            .left-shadow,
+            .right-shadow
+              display: none
+          h1.span12,
+          .right-block h3,
+          .right-block p
+            margin-left: 15px
+            margin-right: 20px
+          h1.span12
+            padding-left: 15px
+            padding-right: 15px
+          input[name='last_name_modify']
+            margin-right: 6px
+            margin-top: 3px
+          .submit-wrapper fieldset
+            padding-bottom: 0
+
+/* #Mobile (Landscape)*/
+/*================================================== */
+
+/* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px)
+  html
+    body
+      .container
+        .row:first-child
+          margin-top: 0
+        .row
+          h1.span12
+            padding-left: 0
+
+@media only screen and (max-width: 320px)
+  html
+    body
+      .container
+        h1
+          font-size: 1.7em
+        h1,
+        .right-block,
+        .input-wrapper
+          margin: 0 10px
+
+  .submit-wrapper
+    .row
+      button.button
+        padding: 10px 20px
+        margin: 20px auto
+        font-size: 1.7em
+      .span6
+        padding-left: 0
+
+  legend
+    margin-left: 5px
